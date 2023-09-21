@@ -1,30 +1,60 @@
+body{
+    background-color: lightgrey;
+    
+}
+
+
 h1{
     font-size: 24px;
-    color: blue;
-    font-weight: bold;
-    font-style: oblique;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-style: italic;
 }
 
 h2{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #0000ff;
 }
 
 h3{
     font-size: 16px;
     color:teal;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 header{
-    color: #4d4d4d;
-    font-weight: bold;
+    color: #ffffff;
+    font-weight: bolder;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    height: 33.33vh;
+    background-image:url(game\ backround.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid teal; 
+    border-radius: 25px;
 }
-p{
-    color: #4d4d4d
-}
+
 a{
     color: #8A2BE2;
     text-decoration: none;
+}
+
+img{
+    width: 50vw;
+    height: auto;
+   
+}
+article{
+    border: 2px solid yellow;
+    border-left: 5px solid yellow;
+    border-radius:25px;
+}
+#headertext{
+    color: #ffffff;
+    border: 2px solid yellow;   
+    
 }
